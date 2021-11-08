@@ -1,0 +1,28 @@
+2021-11-07T09:17:04+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\tech_store\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tech_store\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\tech_store\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\tech_store\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#3 C:\xampp\htdocs\tech_store\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\tech_store\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\tech_store\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tech_store\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tech_store\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-11-07T09:17:06+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method Astra_Builder_Header::header_woo_cart() cannot be called statically in C:\xampp\htdocs\tech_store\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 C:\xampp\htdocs\tech_store\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#1 C:\xampp\htdocs\tech_store\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#2 C:\xampp\htdocs\tech_store\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#3 C:\xampp\htdocs\tech_store\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\tech_store\wp-includes\template-loader.php(13): do_action('template_redire...')
+#5 C:\xampp\htdocs\tech_store\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tech_store\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\tech_store\wp-includes\customize\class-wp-customize-partial.php on line 221
+
+2021-11-07T13:59:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\tech_store\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-11-07T16:41:56+00:00 CRITICAL Out of memory (allocated 12582912) (tried to allocate 8192 bytes) in C:\xampp\htdocs\tech_store\wp-admin\includes\ajax-actions.php on line 2185
+
